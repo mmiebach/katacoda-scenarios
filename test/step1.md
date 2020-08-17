@@ -41,6 +41,13 @@ Now you can use devon to setup a java project for you.
 Switch into the newly create project directory.
 `cd cobigenexample/`{{execute}}
 
+In order to create a folder for the database, run `mkdir core/src/main/resources/db/h2`{{execute}} and 
+`cd core/src/main/resources/db/h2`{{execute}}
+
+Create the first SQL-Table: `cat > V0002__Create_Test.sql`{{execute}}
+
+
+
 
 
 
