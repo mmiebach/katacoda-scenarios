@@ -19,7 +19,7 @@
   },
   "environment": {
     "uilayout": "terminal"
-    "showide" : "true"
+    "showide" : true
   },
   "backend": {
     "imageid": "ubuntu1804"
