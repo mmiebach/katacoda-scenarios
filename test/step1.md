@@ -22,4 +22,26 @@ Accept the licence agreements.
 
 You can decline when asked wether you want to share data with Angular Team `N`{{execute}}
 
+You will need to refresh your terminal in order to be able to use devon. Run `. ~/.bashrc`{{execute}}
+
+## Install cobigen
+
+`devon cobigen`{{execute}}
+
+Cobigen Cli will be installed inside the software directory of your devonfw ide.
+
+## Setting up your java project
+
+Navigate to the 'workspaces/main/' folder in your devonfw installation directory.
+`cd workspaces/main/`{{execute}}
+
+Now you can use devon to setup a java project for you.
+`devon java create com.example.application.cobigenexample`{{execute}}
+
+Switch into the newly create project directory.
+`cd cobigenexample/`{{execute}}
+
+
+
+
 
