@@ -1,48 +1,6 @@
-## devonfw setup
+Now we will generate all desired classes with a yml file. 
 
-Create the directory where the devonfw ide will be installed.
-
-`mkdir devonfw`{{execute}}
-
-`cd devonfw`{{execute}}
-
-
-To install devonfw execute the following commands. More information about setting up your ide on https://devonfw.com/website/pages/docs/devonfw-ide-introduction.asciidoc.html#setup.asciidoc
-`wget -c https://bit.ly/2BCkFa9 -O - | tar -xz`{{execute}}
-
-`bash setup`{{execute}}
-
-
-The installtion process may take a while.
-
-The installation routine will ask you for a settings url. You can continue with the default settings by pressing return.
-
-Accept the licence agreements.
-`yes`{{execute}}
-
-You can decline when asked wether you want to share data with Angular Team `N`{{execute}}
-
-You will need to refresh your terminal in order to be able to use devon. Run `. ~/.bashrc`{{execute}}
-
-## Install cobigen
-
-`devon cobigen`{{execute}}
-
-Cobigen Cli will be installed inside the software directory of your devonfw ide.
-
-## Setting up your java project
-
-Navigate to the 'workspaces/main/' folder in your devonfw installation directory.
-`cd workspaces/main/`{{execute}}
-
-Now you can use devon to setup a java project for you.
-`devon java create com.example.application.cobigenexample`{{execute}}
-
-Switch into the newly create project directory.
-`cd cobigenexample/`{{execute}}
-
-Goto the core of the project: 
-`cd core`{{execute}}
+Click on the `Copy-to-Editor`-Button in order to copy the yml-file to your project.
 
 <pre class="file" data-filename="devonfw/workspaces/main/cobigenexample/core/devonfw.yml">
 openapi: 3.0.0
@@ -118,7 +76,7 @@ components:
           required: true
 </pre>
 
-run:
+Now run:
  `devon mvn package -Dmaven.test.skip=true`{{execute}}
 and
  `devon mvn clean install -Dmaven.test.skip=true`{{execute}}
