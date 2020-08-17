@@ -19,3 +19,7 @@ The installation routine will ask you for a settings url. You can continue with 
 
 Accept the licence agreements.
 `yes`{{execute}}
+
+You can decline when asked wether you want to share data with Angular Team `N`{{execute}}
+
+
