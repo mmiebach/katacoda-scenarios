@@ -76,14 +76,9 @@ components:
           required: true
 </pre>
 
-Now run:
- `devon mvn package -Dmaven.test.skip=true`{{execute}}
-and
- `devon mvn clean install -Dmaven.test.skip=true`{{execute}}
-
 
 Then we are going to generate the desired files with the yml:
-`devon cobigen generate core/devonfw.yml`{{execute}}
+`devon cobigen generate devonfw.yml`{{execute}}
 
 
 
